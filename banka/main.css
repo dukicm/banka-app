@@ -1,0 +1,88 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+#wrapp{
+	margin: 0 auto;
+	width: 100%;
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+
+h2{
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+.header{
+	margin: 0 auto;
+	background: gray;
+	min-height: 300px;
+}
+
+.content{
+	width: 60%;
+	float: left;
+	margin-top: 40px;
+}
+
+.vreme {
+	float: left;
+	width: 20%;
+	text-align: center;
+	height: 200px;
+    line-height: 200px;
+}
+
+.datum {
+	float: right;
+	width: 20%;
+	text-align: center;
+	height: 200px;
+    line-height: 200px;
+}
+
+input[type="button"]{
+	margin-top: 10px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+input[value="Add Account"]{
+	background: blue;
+	color: white;
+}
+input[value="Edit Account"]{
+	background: orange;
+}
+input[value="Delete Account"]{
+	background: red;
+}
+input[value="Sign in"]{
+	background: silver;
+	color: white;
+	margin-top: 20px;
+}
+
+.dugmici{
+	margin: 0 auto;
+	width: 322px;
+}
+
+form {
+	margin: 0 auto;
+	width: 175px;
+	margin-top: 20px;
+}
+
+.signIn{
+	margin: 0 auto;
+	width: 65px;
+}
