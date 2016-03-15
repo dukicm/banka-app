@@ -2,7 +2,7 @@ var signIn = document.getElementById('btn4');
 
 signIn.addEventListener('click', function(){
     var user = document.querySelectorAll('input[type=text]').value;
-	var pass = document.querySelectorAll('input[type=password]').value;
+    var pass = document.querySelectorAll('input[type=password]').value;
 
 	if ((user.length < 1) && (pass.length < 1)) {
 		alert("Molimo Vas da popunite formu!");
