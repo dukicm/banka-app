@@ -3,7 +3,7 @@
 var signIn = document.getElementById('btn4');
 var forma = document.getElementsByTagName('form');
 var user = document.querySelectorAll('input[type=text]').val; // ovo izgleda ne radi
-var pass = document.querySelectorAll('input[type=password]').val;
+var pass = document.querySelectorAll('input[type=password]').val; // ovo izgleda ne radi
 
 signIn.addEventListener('click', validacija);
 
